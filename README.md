@@ -2,7 +2,7 @@
 
 # Statistical-Calculator
 
-###Project Outline
+### Project Outline
 
 Calculator Object
 1. Properties
