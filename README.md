@@ -2,6 +2,8 @@
 
 # Statistical-Calculator
 
+**Contributors: Chikaodi Adibemma and Ian Kavuma**
+
 ### Project Outline
 
 Calculator Object
@@ -21,19 +23,20 @@ Calculator Object
     11. Standard Deviation-> Call standard deviation static method from Math operations
     12. Z-Score-> Call z-score static method from Math operations
 3. Math Operations Static Class
-    1. Methods
+    1. Basic Calculator Methods:
         1. Addition -> Calls addition class method of sum
         2. Subtraction->Calls subtraction class method of difference
         3. Multiplication-> Calls multiplication class method of multiply
         4. Division-> Calls division class method of divide
         5. Square-> Calls square class method of squared
         6. Square Root->Calls square root class method of sqrt
-        7. Mean-> Calls mean class method of average
-        8. Median-> Calls median class method of median
-        9. Mode-> Calls mode class method of mode
-        10. Variance-> Calls variance class method of variance
-        11. Standard Deviation-> Calls standard deviation class method of s_dev
-        12. Z-Score-> Calls z-score class method of z_score
+    2. Statistical Methods:
+        1. Mean-> Calls mean class method of average
+        2. Median-> Calls median class method of median
+        3. Mode-> Calls mode class method of mode
+        4. Variance-> Calls variance class method of variance
+        5. Standard Deviation-> Calls standard deviation class method of s_dev
+        6. Z-Score-> Calls z-score class method of z_score
 4. Operations class(s)
     1. Addition
         1. Methods 
