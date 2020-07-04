@@ -69,7 +69,7 @@ We will extend the basic operations that allow us to do statistical operations t
 
 [P-Value](PValue.md) 
 
-Correlation Coefficient
+[Correlation Coefficient](Correlationcoeffecient.md)
 
 [Confidence Interval](ConfidenceInterval.md)
 
@@ -77,7 +77,6 @@ Correlation Coefficient
 
 [Sample standard deviation](SampleStandardDeviation.md)
 
-Proportion
 
 [Standard Scores (z-Scores)](Standardized_Zscore.md)
 
@@ -87,6 +86,6 @@ Proportion
 
 [PopulationVariance](PopulationVariance.md)
 
-Population Mean
+[Population Mean](PopulationMean.md)
 
-Population Standard Deviation
+[Population Standard Deviation](PopulationStandardDeviation.md)
