@@ -1,0 +1,1 @@
+The median is the middle number in a set of numbers listed in ascending order.

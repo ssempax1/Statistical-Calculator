@@ -75,3 +75,5 @@ Calculator Object
     12. Z-Score
         1. Methods
             1. Subtract 1 number from the mean then divide by standard deviation 
+
+[Development Task](References/Outline.md)
