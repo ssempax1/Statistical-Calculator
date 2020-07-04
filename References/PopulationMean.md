@@ -1,0 +1,1 @@
+The mean is the average of all numbers.
