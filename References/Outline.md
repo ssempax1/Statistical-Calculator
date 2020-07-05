@@ -1,6 +1,4 @@
-# Project Outline 
-
-
+# Task List
 
 ## Abstract
 The project  goal is to create a statistical calculator with the ability to to do statistical functions and ability to read datafiles/CSV files.
@@ -18,7 +16,7 @@ Create a Calculator folder that has a calculator module  to the Calculator folde
 
 Addition :The addition is taking two or more numbers and adding them together, that is, it is the total sum of 2 or more numbers. A + B : 2 + 2 = 4 Sum 
 
-subtraction : Is taking one number away from another that is the difference. A - B  : 2 - 1 = 1 Difference
+Subtraction : Is taking one number away from another that is the difference. A - B  : 2 - 1 = 1 Difference
 
 Multiplication :  IS an increase in the number or amount of something. A * B  : 2 * 2 = 4 Product
 
@@ -26,7 +24,7 @@ Division : Is splitting into equal parts or groups. A / B : 4 / 2 = 2
 
 Square : is an arithmetic operator that signifies multiplying a number by itself. A * A : 2 * 2 = 4
 
-Square root : The square root is just the opposite of the square. √A  : √ 4 = 2
+Square Root : The square root is just the opposite of the square. √A  : √ 4 = 2
 
 
 
@@ -40,7 +38,8 @@ Create a CSV reader folder  with the ability to read  data files.
 
 
 #### Developmental Task 3
-***Performance improvement***Create a Test folder  unit testing each of the basic operations
+***Performance improvement***
+Create a Test folder  unit testing each of the basic operations
 
 ***Description***
 If all the Tests are passed then we move on to the next Phase 
@@ -66,18 +65,17 @@ We will extend the basic operations that allow us to do statistical operations t
 
 [Confidence Interval](ConfidenceInterval.md)
 
-[Sample mean](SampleMean.md)
+[Sample Mean](SampleMean.md)
 
-[Sample standard deviation](SampleStandardDeviation.md)
+[Sample Standard Deviation](SampleStandardDeviation.md)
 
+[Standard Scores (Z-Scores)](Standardized_Zscore.md)
 
-[Standard Scores (z-Scores)](Standardized_Zscore.md)
+[Variance of Population Proportion](VarianceofPopulationProportion.md)
 
-[Variance of population proportion](VarianceofPopulationProportion.md)
+[Variance of Sample Proportion](VarianceofSampleProportion.md)
 
-[Variance of sample proportion](VarianceofSampleProportion.md)
-
-[PopulationVariance](PopulationVariance.md)
+[Population Variance](PopulationVariance.md)
 
 [Population Mean](PopulationMean.md)
 
