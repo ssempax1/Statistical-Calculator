@@ -1,4 +1,4 @@
-from Calculator.Square import squaring
+from Calculator.Square import square
 from Calculator.Division import division
 from Calculator.Addition import addition
 from Statistics.PopulationMean import populationmean
@@ -13,6 +13,6 @@ def proportion(num):
             p_list.append(y)
         return p_list
     except ZeroDivisionError:
-        print("Error: Insert value greater then 0")
+        print("Error: Insert value greater than 0")
     except ValueError:
-        print("Error: insert cor")
+        print("Error: insert correct data type")

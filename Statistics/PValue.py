@@ -4,8 +4,8 @@ from Calculator.Addition import addition
 from Calculator.Subtraction import subtraction
 from Statistics.PopulationMean import populationmean
 from Statistics.StandardDeviation import stddev
-from Statistics.ZScore import zscore
+from Statistics.ZScore import z_score
 
 
 def pvalue(num):
-    return zscore(num)
+    return z_score(num)

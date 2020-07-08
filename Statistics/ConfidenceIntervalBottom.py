@@ -6,14 +6,14 @@ from Statistics.PopulationMean import populationmean
 from Statistics.StandardDeviation import stddev
 
 
-def confidence_interval_top(num):
+def confidence_interval_bottom(num):
     try:
         num_values = len(num)
         z = 1.96
         sd = stddev(num)
         avg = populationmean(num)
-        return round(avg + (z * sd / square_root(num_values)), 5)
+        return round(avg - (z * sd / square_root(num_values)), 5)
     except ZeroDivisionError:
-        print("Error: Enter a value greater then 0")
+        print("Error:Insert a number greater than 0")
     except ValueError:
-        print("Error: insert correct datatype")
+        print("Error: Enter correct data type ")

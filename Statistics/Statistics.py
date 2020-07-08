@@ -4,9 +4,16 @@ from Statistics.Proportion import proportion
 from Statistics.CorrelationCoefficient import correlation
 from Statistics.VarianceOfPopulationProportion import variance_of_population_proportion
 from Statistics.ConfidenceIntervalTop import confidence_interval_top
-from Statistics.ConfidenceIntervalBottom import confidence_interval_bottom
 from Statistics.SampleMean import sample_mean
 from Statistics.PValue import pvalue
+from Statistics.ZScore import z_score
+from Statistics.SampleStandardDeviation import sample_stddev
+from Statistics.ConfidenceIntervalBottom import confidence_interval_bottom
+from Statistics.VarianceOfPopulationProportion import variance_of_population_proportion
+from Statistics.Median import median
+from Statistics.Mode import mode
+from Statistics.StandardDeviation import stddev
+from Statistics.Variance import variance
 
 
 class Statistics(Calculator):
@@ -14,6 +21,22 @@ class Statistics(Calculator):
 
     def __init__(self):
         super().__init__()
+
+    def median(self, data):
+        self.result = median(data)
+        return self.result
+
+    def mode(self, data):
+        self.result = mode(data)
+        return self.result
+
+    def variance(self, data):
+        self.result = variance(data)
+        return self.result
+
+    def stddev(self, data):
+        self.result = stddev(data)
+        return self.result
 
     def population_mean(self, data):
         self.result = populationmean(data)
@@ -24,7 +47,7 @@ class Statistics(Calculator):
         return self.result
 
     def zscore(self, data):
-        self.result = zscore(data)
+        self.result = z_score(data)
         return self.result
 
     def correlation(self, data, data1):
@@ -44,7 +67,7 @@ class Statistics(Calculator):
         return self.result
 
     def sample_mean(self, data):
-        self.result = samplemean(data)
+        self.result = sample_mean(data)
         return self.result
 
     def p_value(self, data):
@@ -52,7 +75,8 @@ class Statistics(Calculator):
         return self.result
 
     def sample_stddev(self, data):
-        self.result = samplestddev(data)
+        self.result = sample_stddev(data)
         return self.result
+
 
     pass
