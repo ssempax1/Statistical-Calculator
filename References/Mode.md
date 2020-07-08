@@ -1,0 +1,1 @@
+Mode is the number that occurs most often within a set of numbers listed in ascending order.
