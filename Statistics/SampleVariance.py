@@ -1,4 +1,4 @@
-from Calculator.Square import squaring
+from Calculator.Square import square
 from Calculator.Division import division
 from Statistics.PopulationMean import populationmean
 
@@ -9,7 +9,7 @@ def samplevariance(num):
         num_values = len(num)
         x = 0
         for i in num:
-            x = x + squaring(i-pop_mean)
+            x = x + square(i-pop_mean)
         return round(division(x, num_values), 7)
     except ZeroDivisionError:
         print("Error: Enter numbers greater than 0")
