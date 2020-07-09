@@ -3,7 +3,7 @@ from Calculator.Division import division
 from Statistics.Sampler import sampler
 
 
-def sample_mean(data, sample_size):
+def samplemean(data, sample_size):
     total = 0
     sample = sampler(data, sample_size)
     num_values = len(sample)
