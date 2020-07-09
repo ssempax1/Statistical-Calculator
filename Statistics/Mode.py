@@ -13,6 +13,6 @@ def mode(num):
             find_mode = mode[0]
         return find_mode
     except ZeroDivisionError:
-        print("Error: Can't Divide by 0")
+        print("Error: Enter numbers greater than 0")
     except ValueError:
-        print('Error: Check your data inputs')
+        print('Error: insert correct data type')
