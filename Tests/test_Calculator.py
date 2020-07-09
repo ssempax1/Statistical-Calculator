@@ -44,8 +44,8 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader('Tests/Data/UnitTestDivision.csv').data
         for row in test_data:
             result = float(row['Result'])
-            self.assertEqual(self.calculator.divide(row['Value 2'], row['Value 1']), result)
-            self.assertEqual(self.calculator.result, result)
+            self.assertEqual(self.calculator.divide(row['Value 2'], row['Value 1']), round(result, 9))
+            self.assertEqual(self.calculator.result, round(result, 9))
 
     def test_square_method_calculator(self):
         self.assertEqual(self.calculator.square(6), 36)
@@ -62,8 +62,8 @@ class MyTestCase(unittest.TestCase):
         test_data = CsvReader('Tests/Data/UnitTestSquareRoot.csv').data
         for row in test_data:
             result = float(row['Result'])
-            self.assertEqual(self.calculator.sqrt(row['Value 1']), result)
-            self.assertEqual(self.calculator.result, result)
+            self.assertEqual(self.calculator.sqrt(row['Value 1']), round(result, 8))
+            self.assertEqual(self.calculator.result, round(result, 8))
 
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.calculator, Calculator)

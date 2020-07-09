@@ -3,12 +3,11 @@ from Statistics.PopulationMean import populationmean
 from Statistics.Proportion import proportion
 from Statistics.CorrelationCoefficient import correlation
 from Statistics.ConfidenceIntervalTop import confidence_interval_top
-from Statistics.SampleMean import sample_mean
+from Statistics.SampleMean import samplemean
 from Statistics.PValue import pvalue
 from Statistics.ZScore import z_score
 from Statistics.SampleStandardDeviation import sample_stddev
 from Statistics.ConfidenceIntervalBottom import confidence_interval_bottom
-from Statistics.VarianceOfPopulationProportion import variance_of_population_proportion
 from Statistics.SampleVariance import samplevariance
 from Statistics.Median import median
 from Statistics.Mode import mode
@@ -54,10 +53,6 @@ class Statistics(Calculator):
         self.result = correlation(data, data1)
         return self.result
 
-    def population_proportion_variance(self, data):
-        self.result = variance_of_population_proportion(data)
-        return self.result
-
     def confidence_interval_top(self, data):
         self.result = confidence_interval_top(data)
         return self.result
@@ -66,8 +61,8 @@ class Statistics(Calculator):
         self.result = confidence_interval_bottom(data)
         return self.result
 
-    def sample_mean(self, data):
-        self.result = sample_mean(data)
+    def sample_mean(self, data, sample_size):
+        self.result = samplemean(data, sample_size)
         return self.result
 
     def p_value(self, data):
@@ -81,6 +76,5 @@ class Statistics(Calculator):
     def sample_variance(self, data):
         self.result = samplevariance(data)
         return self.result
-
 
     pass
