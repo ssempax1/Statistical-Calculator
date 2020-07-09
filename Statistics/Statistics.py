@@ -8,7 +8,6 @@ from Statistics.PValue import pvalue
 from Statistics.ZScore import z_score
 from Statistics.SampleStandardDeviation import sample_stddev
 from Statistics.ConfidenceIntervalBottom import confidence_interval_bottom
-from Statistics.VarianceOfPopulationProportion import variance_of_population_proportion
 from Statistics.SampleVariance import samplevariance
 from Statistics.Median import median
 from Statistics.Mode import mode
