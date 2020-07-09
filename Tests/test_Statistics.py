@@ -12,7 +12,7 @@ class MyTestCase(unittest.TestCase):
     p_answers = CsvReader('Tests/Data/Test_Proportion.csv').data
     z_answers = CsvReader('Tests/Data/Test_ZScores.csv').data
     column_proportion = [float(row['Proportion']) for row in p_answers]
-    column_zscore = [float(row['Z-Score']) for row in z_answers]
+    column_z_score = [float(row['Z-Score']) for row in z_answers]
     test_answer = CsvReader('Tests/Data/UnitTestStatsAnswers.csv').data
     sample_data = CsvReader('Tests/Data/Test_Data_Sample.csv').data
     column3 = [int(row['sample1']) for row in sample_data]
@@ -65,12 +65,12 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(self.statistics.result, float(row['correlation']))
 
     def test_zscore_statistics(self):
-        self.assertEqual(self.statistics.z_score(self.column1), self.column_zscore)
+        self.assertEqual(self.statistics.zscore(self.column1), self.column_z_score)
         self.assertEqual(self.statistics.result, self.column_z_score)
 
     def test_pvalue_statistics(self):
-        self.assertEqual(self.statistics.p_value(self.column1), self.column_zscore)
-        self.assertEqual(self.statistics.result, self.column_zscore)
+        self.assertEqual(self.statistics.p_value(self.column1), self.column_z_score)
+        self.assertEqual(self.statistics.result, self.column_z_score)
 
     def test_proportion_statistics(self):
         self.assertEqual(self.statistics.proportion(self.column1), self.column_proportion)
