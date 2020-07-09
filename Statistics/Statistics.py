@@ -2,7 +2,6 @@ from Calculator.Calculator import Calculator
 from Statistics.PopulationMean import populationmean
 from Statistics.Proportion import proportion
 from Statistics.CorrelationCoefficient import correlation
-from Statistics.VarianceOfPopulationProportion import variance_of_population_proportion
 from Statistics.ConfidenceIntervalTop import confidence_interval_top
 from Statistics.SampleMean import sample_mean
 from Statistics.PValue import pvalue
@@ -77,6 +76,5 @@ class Statistics(Calculator):
     def sample_stddev(self, data):
         self.result = sample_stddev(data)
         return self.result
-
 
     pass
