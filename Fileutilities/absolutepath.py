@@ -1,6 +1,6 @@
 from pathlib import Path
 
 
-def absolute_path(filepath):
+def absolutepath(filepath):
     relative = Path(filepath)
     return relative.absolute()

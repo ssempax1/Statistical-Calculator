@@ -6,11 +6,11 @@ def mode(num):
         num_values = len(num)
         count = Counter(num)
         find_mode = dict(count)
-        mode = [k for k, v in find_mode.items() if v == max(list(count.values()))]
-        if len(mode) == num_values:
+        mode1 = [k for k, v in find_mode.items() if v == max(list(count.values()))]
+        if len(mode1) == num_values:
             find_mode = "No mode found"
         else:
-            find_mode = mode[0]
+            find_mode = mode1[0]
         return find_mode
     except ZeroDivisionError:
         print("Error: Enter numbers greater than 0")
