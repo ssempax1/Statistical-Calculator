@@ -66,8 +66,8 @@ class Statistics(Calculator):
         self.result = confidence_interval_bottom(data)
         return self.result
 
-    def sample_mean(self, data):
-        self.result = sample_mean(data)
+    def sample_mean(self, data, sample_size):
+        self.result = sample_mean(data, sample_size)
         return self.result
 
     def p_value(self, data):
@@ -81,6 +81,5 @@ class Statistics(Calculator):
     def sample_variance(self, data):
         self.result = samplevariance(data)
         return self.result
-
 
     pass
