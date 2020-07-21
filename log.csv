@@ -1,5 +1,43 @@
 Commit (Hash), User, Change, Date
-6b87616, ssempax1, Feature: Added basic calculator function , Jul. 02 2020
+b4f2e10, cadibemma, Fix: fixing rounding in test_Calculator.py, Jul. 9 2020
+0e74d70, cadibemma, Fix: fixing functions in Statistics.py, Jul. 9 2020
+d1a023c, ssempax1, added Test Data file, Jul. 9 2020
+f598506, cadibemma, Fix: fixing path in test calculator, Jul. 9 2020
+d15f5fb, ssempax1, added Test Data file, Jul. 9 2020
+69d43d6, ssempax1, added Test Data file, Jul. 9 2020
+2b0c3f8, cadibemma, Fix: Modifiying absolutepath.py, Jul. 9 2020
+cc2fc5e, cadibemma, Fix: added sample size parameter to sample mean method, Jul. 8 2020
+74aa930, cadibemma, Fix: corrected method name, Jul. 8 2020
+1b46cef, cadibemma, Fix: Added sample variance and fixing typos on test_Statistics.py, Jul. 8 2020
+8223b25, cadibemma, Fix: Fixed variance function, Jul. 8 2020
+9540fc7, ssempax1, Task: added files and modified code, Jul. 8 2020
+3dc58fc, cadibemma, Fix: Modified zscore formula, Jul. 7 2020
+9fccb78, cadibemma, Feature: Created method for standard deviation, Jul. 7 2020
+66ce395, cadibemma, Feature: Created method for z score, Jul. 7 2020
+9077bd1, cadibemma, Feature: Created method for median, Jul. 7 2020
+156f30c, cadibemma, Feature: Created method for mode, Jul. 7 2020
+c62bc26, cadibemma, Fix: Fixed function name, Jul. 7 2020
+ae08606, cadibemma, Feature: Added csv test file, Jul. 7 2020
+dbf929f, cadibemma, Fix: Commented out unittest template to be ignored by travis, Jul. 7 2020
+cfe3589, cadibemma, Feature: Added test file to test basic calculator functions, Jul. 7 2020
+f71d984, cadibemma, Task: Added unittest format to all test files, Jul. 7 2020
+9131684, cadibemma, Task: Created CSVReader, Jul. 7 2020
+afd504f, ssempax1, Task: added files to statistics, Jul. 6 2020
+8a7f1a3, cadibemma, Fix: Modified Outline.md, Jul. 5 2020
+593afe9, ssempax1, Fix: add link from Readme to outline md, Jul. 4 2020
+20a17d4, ssempax1, Fix: add descriptions, Jul. 4 2020
+5b5a89a, ssempax1, Fix: add descriptions, Jul. 4 2020
+2ee4708, ssempax1, Fix: format Outline.md, Jul. 4 2020
+3af0685, ssempax1, Completed Descriptions and formulas of project, Jul. 4 2020
+76148d6, ssempax1, Added Descriptions and formulas of project, Jul. 4 2020
+d00d747, ssempax1, Added task outline file, Jul. 4 2020
+7fbaaac, ssempax1, Added to project outline, Jul. 3 2020
+2d086f8, cadibemma, Task: Added Test files to Data folder, Jul. 3 2020
+f036db0, cadibemma, Fix: Refactored init filename, Jul. 3 2020
+da0dbb1,cadibemma, Task: Added additional files to project skeleton, Jul. 2 2020
+7a0b41d, cadibemma, Task: Added files and folders to Project Skeleton, Jul. 2 2020
+897afee, cadibemma, Fix: Separated methods in README.md, Jul. 2 2020
+6b87616, ssempax1, Feature: Added basic calculator function, Jul. 02 2020
 6b87616, ssempax1, Task: Added Files to Project Structure, Jul. 02 2020
 74eccb2, cadibemma, Task: Created Project Skeleton, Jun. 27 2020
 c0cdec7, cadibemma, Initial release, Jun. 27 2020
