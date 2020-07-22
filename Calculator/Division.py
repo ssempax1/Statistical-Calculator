@@ -1,2 +1,2 @@
 def division(a, b):
-    return round((float(a) / float(b)), 8)
+    return round((float(a) / float(b)), 9)
